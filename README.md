@@ -1,0 +1,1 @@
+https://github.com/vasilisa123/rsschool-cv/blob/gh-pages/cv.md
