@@ -1,0 +1,551 @@
+.bg1 {
+    position: absolute;
+    width: 1440px;
+    height: 765px;
+    left: 8px;
+    top: 0px;
+
+    background: url(./Travel/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
+}
+
+.bg2 {
+    position: absolute;
+    width: 1445px;
+    height: 1270px;
+    left: 8px;
+    top: 2404px;
+    
+    background: rgba(255, 255, 255, 0.7); 
+    z-index: 2;
+}
+
+.bg3 {
+    position: absolute;
+    width: 1442px;
+    height: 1331px;
+    left: 8px;
+    top: 2404px;
+    background: url(./Travel/Rectangle\ 27.png); 
+    z-index: 1;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px
+    rgba(13, 96, 111, 0.5)
+
+}
+
+.travellogo {
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 156px;
+    top: 25px;
+}
+
+.logo {
+    position: absolute;
+    left: 8.33%;
+    right: 89.58%;
+    top: 0.7%;
+    bottom: 98.5%;
+}
+
+.logotravel {
+    position: absolute;
+    width: 180px;
+    height: 31px;
+    left: 156px;
+    top: 25px;
+
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+
+    position: absolute;
+    width: 527px;
+    height: 21px;
+    left: 494px;
+    top: 35px;
+}
+
+.nav-list{
+    font-size: 30px;
+    font-weight:900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item1 {
+    width: 98px;
+    height: 21px;
+    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-item2 {
+    width: 105px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.nav-item3 {
+    width: 95px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.nav-item4 {
+    width: 103px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    left: 1150px;
+    top: 10px;
+    
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+
+    color: #ddd;
+
+}
+
+.footer {
+
+    position: absolute;
+    width: 728.96px;
+    height: 33.65px;
+    left: 590px;
+    top: 3688px;
+    
+}
+.stories {
+    position: absolute;
+    width: 1201px;
+    height: 1322px;
+    left: 119px;
+    top: 2311px;
+    z-index: 2;
+
+}
+
+.stories-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+
+.stories1 {
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    left: 120px;
+    top: 2444px;
+}
+
+.photost1 {
+position: absolute;
+width: 400px;
+height: 250px;
+left: 120px;
+top: 2444px;
+
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+}
+
+.headst1 {
+position: absolute;
+width: 760px;
+height: 42px;
+left: 560px;
+top: 2444px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #0D606F;
+}
+
+.textst1 {
+position: absolute;
+width: 760px;
+height: 184px;
+left: 560px;
+top: 2510px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #0D606F;
+}
+
+.storiese2 {
+position: absolute;
+width: 1200px;
+height: 250px;
+left: 120px;
+top: 2724px;
+}
+
+.headst2 {
+position: absolute;
+width: 760px;
+height: 42px;
+left: 560px;
+top: 2724px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+/* identical to box height */
+
+color: #0D606F;
+}
+
+.textst2 {
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    left: 560px;
+    top: 2790px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #0D606F;  
+}
+.photost2 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 120px;
+    top: 2724px;
+    
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;  
+}
+
+.storiese3 {
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    left: 120px;
+    top: 3004px; 
+}
+
+.headst3 {
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 560px;
+    top: 3004px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    color: #0D606F; 
+}
+
+.textst3 {
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    left: 560px;
+    top: 3070px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #0D606F; 
+}
+
+.photost3 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 120px;
+    top: calc(50% - 250px/2 + 1261.5px);
+    
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;  
+}
+
+.stories4 {
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    left: 119px;
+    top: 3284px; 
+}
+
+.headst4 {
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 559px;
+    top: 3284px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    color: #0D606F;  
+}
+
+.textst4 {
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    left: 559px;
+    top: 3350px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #0D606F; 
+}
+
+.photost4 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 119px;
+    top: calc(50% - 250px/2 + 1541.5px);
+
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px; 
+}
+.trip {
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    left: 120px;
+    top: 122px;
+    z-index: 1;
+}
+
+.bigtext {
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    left: 120px;
+    top: 122px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+}
+
+.search {
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    z-index: 1;
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+
+.smalltext {
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.searchtext {
+position: absolute;
+width: 560px;
+height: 22px;
+left: 161px;
+top: 448px;
+
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #F2785C;
+z-index: 2;
+}
+
+.startplan {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+
+position: absolute;
+width: 228px;
+height: 59px;
+left: 766px;
+top: 434px;
+
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+z-index: 2;
+}
+
+.startplanbutton {
+width: 163px;
+height: 32px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
